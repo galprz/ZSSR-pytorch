@@ -13,16 +13,10 @@ git clone https://github.com/galprz/ZSSR-pytorch
 ```
 ```bash
 conda end update -f environment.yml
-conda activate brain-tumor-segmentation
+conda activate zssr
 ```
 # Report
 report.pdf contains information about the ZSSR model and on our experiments.
-
-# Pretrain VDSR
-The VDSR model trained on BSDS300 using [this google colab](https://colab.research.google.com/drive/1bJiBON-ayQgdQ8oeP4rFMPevBjv3rt9w) based on [this github](https://github.com/2KangHo/vdsr_pytorch)
-
-To run the experiment transfer notebook you need to download first the pretrain VDSR model from [here](https://drive.google.com/open?id=1bvkWzt1A5VshaA73h005z8TFrQDhCTev) and put it in the 'model' folder under the root folder
-
 
 # Code structure
 + config - the cofiguration for the experiments.
@@ -42,3 +36,8 @@ To run the experiment transfer notebook you need to download first the pretrain 
 
 # Dataset
 To run the experiments download the dataset from [here](https://ndownloader.figshare.com/files/21952197) and unzip it to the root folder
+
+# Pretrain VDSR
+The VDSR model trained on BSDS300 using [this google colab](https://colab.research.google.com/drive/1bJiBON-ayQgdQ8oeP4rFMPevBjv3rt9w) based on [this github](https://github.com/2KangHo/vdsr_pytorch)
+
+To run the experiment transfer notebook you need to download first the pretrain VDSR model from [here](https://drive.google.com/open?id=1bvkWzt1A5VshaA73h005z8TFrQDhCTev) and put it in the 'model' folder under the root folder
