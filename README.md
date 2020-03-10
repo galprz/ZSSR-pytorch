@@ -29,7 +29,7 @@ report.pdf contains information about the ZSSR model and on our experiments.
 + data - contains the class for the dataset and data sampler
 
 # Experiments
-+ experiment notbook - contains data exploration and sanity check for the model
++ experiment notebook - contains data exploration and sanity check for the model
 + experiment pixelshuffle - comparison between ZSSR to ZSSR with pixel shuffle
 + experiment transfer - comparison between ZSSR to ZSSR with VDSR as backbone
 + experiment content loss - comparison between ZSSR with l1 loss and ZSSR with content loss
