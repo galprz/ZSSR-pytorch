@@ -12,7 +12,7 @@ First download the code by git clone the repo:
 git clone https://github.com/galprz/ZSSR-pytorch
 ```
 ```bash
-conda end update -f environment.yml
+conda env update -f environment.yml
 conda activate zssr
 ```
 # Report
