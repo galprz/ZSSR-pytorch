@@ -15,6 +15,9 @@ git clone https://github.com/galprz/ZSSR-pytorch
 conda end update -f environment.yml
 conda activate brain-tumor-segmentation
 ```
+# Report
+report.pdf contains information about the ZSSR model and on our experiments.
+
 # Pretrain VDSR
 The VDSR model trained on BSDS300 using [this google colab](https://colab.research.google.com/drive/1bJiBON-ayQgdQ8oeP4rFMPevBjv3rt9w) based on [this github](https://github.com/2KangHo/vdsr_pytorch)
 
