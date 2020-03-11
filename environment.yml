@@ -19,3 +19,4 @@ dependencies:
   - tensorboard
   - ignite
   - scikit-image
+  - jupyterlab

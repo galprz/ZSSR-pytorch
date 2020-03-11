@@ -29,6 +29,13 @@ report.pdf contains information about the ZSSR model and on our experiments.
 + data - contains the class for the dataset and data sampler
 
 # Experiments
+To view the experiments result run
+```
+jupyter lab
+```
+
+After following the Setup phase
+
 + experiment notebook - contains data exploration and sanity check for the model
 + experiment pixelshuffle - comparison between ZSSR to ZSSR with pixel shuffle
 + experiment transfer - comparison between ZSSR to ZSSR with VDSR as backbone
